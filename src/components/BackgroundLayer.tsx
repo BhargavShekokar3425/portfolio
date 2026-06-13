@@ -1,21 +1,22 @@
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 
 const BackgroundLayer: React.FC = () => {
+  const { scrollYProgress } = useScroll();
+  const backgroundX = useTransform(scrollYProgress, [0, 1], ["0vw", "-18vw"]);
+
   return (
     <motion.div
       aria-hidden="true"
-      className="fixed inset-0 z-0 pointer-events-none"
+      className="fixed left-0 top-0 z-0 h-full w-[140vw] max-w-none pointer-events-none"
       style={{
+        x: backgroundX,
         backgroundImage: `url('/background.jpg')`,
-        backgroundRepeat: "repeat",
-        backgroundPosition: "center top",
-        backgroundSize: "cover",
-        opacity: 0.15,
-        filter: "brightness(1.1) contrast(1.05)",
+        backgroundRepeat: "repeat-y",
+        backgroundSize: "140vw auto",
+        opacity: 0.2,
+        filter: "brightness(1.08) contrast(1.05)",
         mixBlendMode: "screen",
       }}
-      animate={{ backgroundPositionY: ["0px", "140px"] }}
-      transition={{ duration: 42, repeat: Infinity, ease: "linear" }}
     />
   );
 };
