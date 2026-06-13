@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npx tsc *)",
+      "Bash(npx eslint *)",
+      "Bash(curl -s -o /tmp/back.jpg -w \"%{http_code}\" http://localhost:8080/background.jpg)",
+      "Read(//tmp/**)",
+      "Bash(curl *)",
+      "Bash(npx stylelint *)",
+      "Bash(npm install *)",
+      "Bash(wget -O background.jpg \"https://www.transparenttextures.com/patterns/asfalt-dark.png\")",
+      "Bash(wget *)"
+    ]
+  }
+}
