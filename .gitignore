@@ -15,6 +15,11 @@ dist-ssr
 .tanstack/**
 .nitro
 *.local
+.tanstack
+.agents/
+.claude/
+.codex
+.vscode
 
 # Wrangler / Cloudflare
 .wrangler/
@@ -30,3 +35,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.vercel

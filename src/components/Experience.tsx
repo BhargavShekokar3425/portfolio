@@ -6,31 +6,34 @@ const items = [
     role: "Summer Pod Intern",
     org: "Oracle",
     period: "May 2026 — Present",
-    bullets: ["Making Agentic Framework Integrations with Oracle 26ai ", "MultiAgent Runtime Systems"],
+    bullets: [
+      "Making Agentic Framework Integrations with Oracle 26ai",
+      "MultiAgent Runtime Systems",
+    ],
     tags: ["Python", "CrewAI", "Multi-Agentic Systems", "OpenSource"],
   },
   {
-  role: "Research Intern, Computer Vision & Generative AI",
-  org: "IIT Hyderabad",
-  period: "May 2025 — Jul 2025",
-  bullets: [
-    "Built a pipeline generating 300+ autonomous driving videos",
-    "Integrated Video Diffusion + ControlNet for weather transitions",
-    "Automated preprocessing, generation, and post-processing"
-  ],
-  tags: ["Python", "PyTorch", "Diffusers", "OpenCV"]
-},
-{
-  role: "Project Team Member",
-  org: "Inter IIT Tech Meet 13.0 (ISRO)",
-  period: "Oct 2024 — Dec 2024",
-  bullets: [
-    "Developed a real-time satellite data processing pipeline",
-    "Reduced backend data latency by 33%",
-    "Built a Digital Twin for trajectory-based mapping simulation"
-  ],
-  tags: ["Python", "MySQL", "Computer Vision", "Deep Learning"]
-}
+    role: "Research Intern, Computer Vision & Generative AI",
+    org: "IIT Hyderabad",
+    period: "May 2025 — Jul 2025",
+    bullets: [
+      "Built a pipeline generating 300+ autonomous driving videos",
+      "Integrated Video Diffusion + ControlNet for weather transitions",
+      "Automated preprocessing, generation, and post-processing",
+    ],
+    tags: ["Python", "PyTorch", "Diffusers", "OpenCV"],
+  },
+  {
+    role: "Project Team Member",
+    org: "Inter IIT Tech Meet 13.0 (ISRO)",
+    period: "Oct 2024 — Dec 2024",
+    bullets: [
+      "Developed a real-time satellite data processing pipeline",
+      "Reduced backend data latency by 33%",
+      "Built a Digital Twin for trajectory-based mapping simulation",
+    ],
+    tags: ["Python", "MySQL", "Computer Vision", "Deep Learning"],
+  },
 ];
 
 export function Experience() {

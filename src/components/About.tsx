@@ -100,10 +100,10 @@ export function About() {
             >
               {tab === "Journey" && (
                 <p className="text-lg leading-relaxed text-muted-foreground md:text-xl">
-                  I'm an engineer with a focus on AI systems and product-grade softwares. Over the
-                  last few years I've praticed tools that bridge machine learning research and real
-                  users &mdash; from RAG pipelines to interactive front-ends. I care about craft,
-                  restraint, and shipping things that feel inevitable.
+                  I'm an engineer with a focus on AI systems and product-grade software. Over the
+                  last few years I've practiced with tools that bridge machine learning research and
+                  real users &mdash; from RAG pipelines to interactive front-ends. I care about
+                  craft, restraint, and shipping things that feel inevitable.
                 </p>
               )}
               {tab === "Stack" && (
